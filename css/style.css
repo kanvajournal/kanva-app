@@ -20,6 +20,7 @@ p{
     background-image: url('../img/taplink/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 .kanva-logo{
     text-align: center;
@@ -34,25 +35,27 @@ p{
 }
 .kanva-minor{
     text-align: center;
-    
+}
+.kanva-logo__image{
+    width: 300px;
+    height: 86px;
 }
 .kanva-minor p{
+    margin-top: 20px;
     color: #fff;
     font-size: 24px;
     font-family: 'PT Serif', serif;
     font-weight: 700;
 }
-.kanva-buttons{
-    /* align-self: flex-end; */
-    
-}
 .kanva-buttons a{
     font-family: 'Montserrat';
+    text-align: center;
     display: flex;
     color: #fff;
     background: #000;
     padding: 16px;
     align-items: center;
+    justify-content: center;
     border-radius: 20px;
     border: 2px solid #fff;
 }
@@ -61,12 +64,12 @@ p{
 }
 
 .kanva-buttons img{
-    width: 30px;
+    min-width: 30px;
     height: 30px;
     margin-right: 20px;
 }
 .kanva-buttons__ios{
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
